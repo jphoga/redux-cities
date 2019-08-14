@@ -3,10 +3,10 @@ export default function(state, action) {
         return []
     }
 
-    if (action.type === 'GET_CITIES') {
-        return action.payload;
-    } 
-    	    
+    if (action.type === 'SELECT_CITY') {
+    	return action.payload;
+    }
+    
     else {
         return state;
     }
